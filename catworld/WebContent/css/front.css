@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+/* front.css는 메인페이지만의 css소스 */
+
+/* 메인 이미지 */
+#main_img {
+	height : 308px;
+	background-image: url("../images/img_back.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	
+}
+#main_img img{
+	margin: 11px 0 0 0;
+}
+
+	/* 메인 article */
+article#front { 
+	margin: 5px 0;
+	
+}
+	/* 첫번째 section */
+section#solution { 
+	width: 910px; min-height:160px /* 최소 높이 지정 */;
+	background-color:#b1bce0;
+	margin: 10px 0 0 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#hosting, #security, #payment {
+	float:left;
+	width:260px;
+	margin-right: 22px;
+	padding: 10px;
+	border-right: 1px solid #ccc;
+}
+
+#hosting h3, #security h3, #payment h3 {
+	 
+	 margin : 0 0 10px 80px;
+	 font-family: seo;
+	 font-size: 14px;
+	 text-transform: capitalize;
+}
+#hosting a, #security a, #payment a{
+	text-decoration: none;
+	color:#2c7dc9;
+}
+#hosting a:HOVER, #security a:HOVER, #payment a:HOVER {
+	color:#50a0e2;
+}
+#hosting p, #security p, #payment p {
+	
+	margin : 0 0 0 80px;
+	font-family: seo;
+	font-size: 12px;
+}
+#hosting {
+	
+	background-image: url("../images/icon1.jpg");
+	background-repeat: no-repeat;
+	background-position: left 15px;
+}
+#security {
+	background-image: url("../images/icon2.jpg");
+	background-repeat: no-repeat;
+	background-position: left 15px;
+}
+#payment {
+	background-image: url("../images/icon3.jpg");
+	background-repeat: no-repeat;
+	background-position: left 15px;
+	border-right: none;
+}
+
+		/* 두번째 section */
+section#news {
+	width:910px;
+	margin : 0 0 0 20px;
+}
+div#sec_news,#newsnotice {
+	float: left;
+	width:420px;
+	margin: 15px 0 0 20px;
+	font-family: "Arial","Helvetica", sans-serif;
+}
+div#sec_news h3,#newsnotice h3 {
+	width: 420px; height:24px;
+	background-image: url("../images/h3_back.jpg");
+	background-repeat: no-repeat;	
+	padding:5px 0 0 22px;
+	font-family: seo;
+	font-size: 14px;
+	font-style: italic;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+div#sec_news h3 span {
+	color: #2b84c6;
+}
+div#newsnotice h3 {
+	color: #2b84c6;
+	
+}
+div#sec_news dl {
+	margin-left: 6px;
+}
+div#sec_news dt {
+	color: #2b84c6;
+	font-weight:bold;
+	font-family: "Times New Roman", "Times",serif;
+	font-size: 16px;
+	margin:5px 0;
+}
+div#sec_news dt a {
+	color: #2c7dc9;
+	text-decoration: none;
+}
+div#sec_news dt a:HOVER {
+	color: #50a0e2;
+	text-decoration:underline;
+}
+div#sec_news dd {
+	margin-left: 0;		
+}
+div#sec_news dd a {
+	color:#333;
+	text-decoration: none;
+}
+div#sec_news dd a:HOVER {
+	color:#50a0e2;
+	text-decoration:underline;
+}
+div#newsnotice {
+	padding-left: 30px;
+}
+div#newsnotice table {
+	width:400px;
+	border-collapse: collapse;
+	text-align: center;
+}
+div#newsnotice td {
+	border-bottom: 1px dotted #999;
+	padding : 6px 4px;
+}
+div#newsnotice td.td_bg {
+	background-image: url("../images/tr_back.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	padding-left: 15px;
+}
+div#newsnotice td a {
+	text-decoration: none;
+	color:#333;
+}
+div#newsnotice td a:HOVER {
+	color:#50a0e2;
+}

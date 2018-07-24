@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+/* default.css는 메인과 서브 모든 페이지의 공용소스 */
+
+body {
+	background-color: #b6c8e0;
+	margin:0; padding:0;
+	font-size: 0.75em;
+	line-height: 1.2em;
+	color:#333;
+}
+
+@font-face { font-family:"seo";     
+           src:url("../images/segoeui.eot");             
+	       src:local("☺"), url("../images/segoeui.woff")  format("woff"), 
+             url("../images/segoeui.ttf") format("truetype");  
+}
+
+.clear{clear:both;}
+
+div#wrap {width: 971px;
+			
+			margin: 0 auto;
+			
+			background-image: url("../images/shadow.png");
+			background-repeat: repeat-y;
+}
+/* header */
+header {
+	
+	height: 151px;
+}
+
+#top_nav {
+	float: right;
+	margin : 20px 64px 0 0;
+	font-size: 12px;
+	font-family: "Arial","Helvetica",sans-serif;
+	word-spacing: 5px;
+}
+#top_nav a{
+	text-decoration: none;
+	color:#333;	
+}
+#top_nav a:HOVER {
+	color:#2c7dc9;
+}
+#logo {
+	float: left;
+	margin:40px 0 0 40px;
+}
+#main_nav {
+	float: right;
+	margin: 50px 20px 0 0px;
+	 
+	width:700px;	
+}
+#main_nav ul {
+	width:600px;
+	padding: 0 0 0 60px;
+	list-style: none;
+	font-size:13px;
+	font-family: "Verdana", "Geneva", sans-serif;
+	text-transform: uppercase;
+	
+}
+#main_nav li {
+	float: left;
+	margin:0 7px;
+}
+#main_nav li a {
+	text-decoration: none;
+	color:#333;
+	padding: 10px;
+	
+}
+#main_nav li a:HOVER {
+	/* border-bottom: 3px solid #4ce; */
+	background-image: url("../images/blue.gif");
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+#alarm {color: red; font-weight: bold;}
+/* footer */
+
+footer { 
+	height: 80px;
+	margin: 50px 0 0 0 ;
+	/* background-image: url("images/catlover.jpg");
+	background-repeat: no-repeat;
+	background-position: 40px center; */
+}
+footer img.cat{float: left;
+position: relative;
+right:170px; bottom:10px;
+}
+footer hr{width:900px;
+	margin: 0 0 0 10px;}
+footer p {
+margin:0 0 0 20px;
+float: left;
+position: relative;
+right:0px; bottom:60px;
+}
+footer div#copy {
+	width: 450px;
+	margin: 10px 0 0 190px;
+	float : left;
+	font-family: seo;
+	
+}
+
+footer div#social {
+	float: right;
+	width:130px;
+	margin : 20px 20px 0 0;
+}
+
+footer div#social img{
+	margin : 0 7px;
+	}
