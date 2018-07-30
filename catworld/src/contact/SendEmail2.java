@@ -50,7 +50,7 @@ public class SendEmail2{
            = Session.getInstance(props,new javax.mail.Authenticator(){
 			    protected PasswordAuthentication getPasswordAuthentication(){
 				    return new PasswordAuthentication
-                                        ("lhw4417","aldoaldo1225"); // naver�④쑴�젟
+                                        ("lhw4417","비공개입니다^^"); // naver�④쑴�젟
 			}
 		});
 		
